@@ -15,7 +15,3 @@ app.listen(3000,()=>{console.log('Server s running on port 3000')});
 
 app.use(require('./routers/admin'));
 
-// rest api endpoint
-app.use('/api/addNumbers',require('./routers/api/test'));
-
-app.use(express.static(__dirname+'/'));
